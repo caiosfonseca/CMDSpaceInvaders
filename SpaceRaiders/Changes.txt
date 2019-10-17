@@ -1,0 +1,7 @@
+Done:
+*	Firstly we refactored the project to something more organized.
+*	I then realized that in the current state, the program is adding and removing content to the GameObjects array while it's iterating it, causing troublesome bugs. A solution to this is to add the desired content to be added and removed each to a secondary list, that will be ran before going through the items that are already in the game.
+
+TO-DO:
+*	Separate the game between GameThread and RenderThread.
+*	Update GameMode and other classes to have private variables

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{66699ae4-17cf-48f4-9e40-0bb455245459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers">
+      <UniqueIdentifier>{9b40ba4b-9f4d-4f71-a67f-4f07cb9b406b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{972db813-cb93-48b7-99f5-b7349a77c95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\FX">
+      <UniqueIdentifier>{0f8b7991-301e-42a4-8778-3c2a91748f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Ships">
+      <UniqueIdentifier>{0f09af08-b9f7-483d-88ee-e6d15de2bb77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Projectiles">
+      <UniqueIdentifier>{197cca25-a7bc-4506-aba2-85f5152fde9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\PowerUps">
+      <UniqueIdentifier>{2eab0d77-9bff-4122-ba4f-35771b4d4f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Common">
+      <UniqueIdentifier>{974b2692-78dc-435a-be57-172488568115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{b9eacf43-fd37-43e8-bdd9-c19c3ac34e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{cb65aa73-4e43-4b02-9a4e-e5ea6dc367af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controllers">
+      <UniqueIdentifier>{58f5f9b1-ef11-4b58-b453-cff8f365a1fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{b5b44af7-b281-4546-8de0-154de05104d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\FX">
+      <UniqueIdentifier>{f0c8edca-1bdc-49c2-a288-30503b919868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Common">
+      <UniqueIdentifier>{9ffa1b92-eb77-4fcf-b7f7-5ada61c33946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\PowerUps">
+      <UniqueIdentifier>{be39fce3-3a10-4854-9cf9-3e097ffc392c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Projectiles">
+      <UniqueIdentifier>{7ee544b8-3190-44e4-96fb-8cbfd20cbfb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Ships">
+      <UniqueIdentifier>{fb241c76-a857-4c31-b5c3-60a7ac5a1e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{7925281b-0558-4743-bc20-744c53924ab4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameMode.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayField.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Renderer.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Input.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\InputController.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\RndInput.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\FX\Explosion.h">
+      <Filter>Header Files\GameObjects\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Common\BlockingWall.h">
+      <Filter>Header Files\GameObjects\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\PowerUps\PowerUp.h">
+      <Filter>Header Files\GameObjects\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Projectiles\AlienLaser.h">
+      <Filter>Header Files\GameObjects\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Projectiles\Laser.h">
+      <Filter>Header Files\GameObjects\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Projectiles\PlayerLaser.h">
+      <Filter>Header Files\GameObjects\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Ships\Alien.h">
+      <Filter>Header Files\GameObjects\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Ships\BetterAlien.h">
+      <Filter>Header Files\GameObjects\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Ships\PlayerShip.h">
+      <Filter>Header Files\GameObjects\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\GameObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\resource.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Vector2D.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SpaceRaiders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameMode.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayField.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Renderer.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\Input.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\InputController.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\RndInput.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\GameObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\FX\Explosion.cpp">
+      <Filter>Source Files\GameObjects\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Ships\PlayerShip.cpp">
+      <Filter>Source Files\GameObjects\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Ships\Alien.cpp">
+      <Filter>Source Files\GameObjects\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Ships\BetterAlien.cpp">
+      <Filter>Source Files\GameObjects\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Projectiles\PlayerLaser.cpp">
+      <Filter>Source Files\GameObjects\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Projectiles\AlienLaser.cpp">
+      <Filter>Source Files\GameObjects\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Projectiles\Laser.cpp">
+      <Filter>Source Files\GameObjects\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\PowerUps\PowerUp.cpp">
+      <Filter>Source Files\GameObjects\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Common\BlockingWall.cpp">
+      <Filter>Source Files\GameObjects\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Vector2D.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Changes.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
